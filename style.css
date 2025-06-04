@@ -1,0 +1,97 @@
+body {
+  margin: 110px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #9797a9;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 10px;
+}
+
+.container {
+  background: #2c2c3e;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px #000;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+  flex: 1 1 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #444;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #3730a3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #393960;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.task-time {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.actions button {
+  margin-left: 6px;
+  background: #555;
+}
+
+.actions button:hover {
+  background: #888;
+}
